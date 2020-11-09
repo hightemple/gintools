@@ -5,11 +5,11 @@ import (
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
 
-	_ "github.com/EDDYCJY/go-gin-example/docs"
-	"github.com/EDDYCJY/go-gin-example/middleware/jwt"
-	"github.com/EDDYCJY/go-gin-example/pkg/setting"
-	"github.com/EDDYCJY/go-gin-example/routers/api"
-	"github.com/EDDYCJY/go-gin-example/routers/api/v1"
+	_ "github.com/hightemple/gintools/docs"
+	"github.com/hightemple/gintools/middleware/jwt"
+	"github.com/hightemple/gintools/pkg/setting"
+	"github.com/hightemple/gintools/routers/api"
+	"github.com/hightemple/gintools/routers/api/v1"
 )
 
 func InitRouter() *gin.Engine {
